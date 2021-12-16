@@ -5,6 +5,8 @@ The aim of the study is to teach and predict the objects in each of the images i
 # Design Choices
 Before image classification, we should know the dataset well and make it available to the model. This optimization process is called feature learning. First, the image is made easier to process using the convolution layer. After this process, in the pooling layer, as in the convolution layer, the size reduction process is applied by moving the kernel over the pixels, which we know from image processing, in order to reduce the processing power. After these processes are repeated enough and the data is made easy to process, the outputs of the feature learning process are given to the model as input.
 
+![image](https://user-images.githubusercontent.com/58219688/146385526-d7cb9b40-4631-4bb1-83ad-0842b07faf24.png)
+
 # Layer Properties
 ## tf.keras.layers.Conv2D
 Available at https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D
